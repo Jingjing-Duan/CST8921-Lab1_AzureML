@@ -170,13 +170,13 @@ For a real-time fraud detection system with five years of transaction data and c
 
 ## Question 1
 
-The regression model achieved an R² value of [Insert Your R² Value]. Based on the provided scale, the model performance can be classified as [Excellent / Good / Moderate / Poor]. A higher R² value means the model can better explain the relationship between automobile features and price.
+The regression model achieved an R² value of 0.868204. Based on the provided scale, the model performance can be classified as Good. A higher R² value means the model can better explain the relationship between automobile features and price.
 
 ---
 
 ## Question 2
 
-The Mean Absolute Error (MAE) value was [Insert Your MAE Value]. This means that, on average, the predicted automobile price differed from the actual price by approximately this amount in dollars.
+The Mean Absolute Error (MAE) value was 1773.614473. This means that, on average, the predicted automobile price differed from the actual automobile price by approximately $1774.
 
 ---
 
@@ -184,16 +184,18 @@ The Mean Absolute Error (MAE) value was [Insert Your MAE Value]. This means that
 
 Example row:
 
-* Actual Price: [Insert Actual Price]
-* Predicted Price: [Insert Predicted Price]
+* Actual Price: 13495
+* Predicted Price: 12800
 
 Percentage Error Calculation:
 
 Percentage Error = |Actual Price – Predicted Price| / Actual Price × 100%
 
-Result: [Insert Percentage Error]
+Result: = |13495 - 12800| / 13495 × 100
+        = 695 / 13495 × 100
+        ≈ 5.15%
 
-This calculation measures how far the prediction was from the real automobile price.
+The prediction error for this automobile was approximately 5.15%, which indicates that the prediction was relatively close to the actual vehicle price.
 
 ---
 
