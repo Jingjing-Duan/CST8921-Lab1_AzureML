@@ -170,7 +170,7 @@ For a real-time fraud detection system with five years of transaction data and c
 
 ## Question 1
 
-The regression model achieved an R² value of 0.868204. Based on the provided scale, the model performance can be classified as Good. A higher R² value means the model can better explain the relationship between automobile features and price.
+The regression model achieved an R² value of 0.868204. Based on the provided scale, the model performance can be classified as a Good Fit model. A higher R² value means the model can better explain the relationship between automobile features and price.
 
 ---
 
